@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+   
+
+
+</head>
+<body id="body" onload="quiz()">
+    <form>
+        <div><p id="quiz"></p></div>
+        <label for="pergunta"><h3 id="texto"> Perguntas:</h3></label> 
+
+        <div id="fundo_pergunta"><p id="text_pergunta">texto</p></div>  
+        <div class="pergunta" id="true" onclick="certo()" onmouseover="Colors()" ><h3 id="opção1">Verdadeiro</h3></div>
+        <div class="pergunta" id="false" onclick="errado()" onmouseover="Colors()" ><h3 id="opção2">Falso</h3></div>
+
+
+        <div id="button"><a href="index.html" id="link_button">Home</a></div>
+    </form> 
+    
+<script src="script.js"></script>
+</body>
+</html>
